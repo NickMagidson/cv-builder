@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Personal from "./CVForm/Personal";
 
 
 class Main extends Component {
@@ -9,7 +10,9 @@ class Main extends Component {
     render() {
         return(
             <div className="main">
-                <div className="cv-form"></div>
+                <div className="cv-form">
+                    <Personal />
+                </div>
                 <div className="cv-preview"></div>
             </div>
         )
